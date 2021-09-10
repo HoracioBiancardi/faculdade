@@ -3,5 +3,6 @@ class Imc:
         self.peso = peso
         self.altura = altura
 
-    def calculo(self) -> float:
-        return self.peso / (self.altura ** 2)
+    def calculo(self):
+        total = self.peso / (self.altura ** 2)
+        return total
