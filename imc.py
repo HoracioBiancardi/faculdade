@@ -5,7 +5,3 @@ class Imc:
 
     def calculo(self) -> float:
         return self.peso / (self.altura ** 2)
-
-
-horacio = Imc(97, 1.75)
-print(horacio.calculo())
